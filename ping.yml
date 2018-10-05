@@ -1,6 +1,6 @@
 ---
 
-- hosts: all
+- hosts: WindowsServer
   gather_facts: false
   tasks:
     - win_ping:
